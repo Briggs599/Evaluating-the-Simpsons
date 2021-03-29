@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat';
+}
+p {
+    display: inline ;
+}
+h1 {
+    color: white;
+    text-align:center;
+}
+div.item {
+    display: flex;
+    flex-wrap: wrap;
+}
+article.yeet {
+    color: white;
+    text-align:left;
+    margin-right: 180px;
+    margin-left: 180px;
+
+}
+article.yote {
+    color: white;
+    text-align:center;
+    padding: 20px;
+    max-width: 300px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-containerzzz {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+p.name{
+    color: #FFD90F;
+    display: inline;
+}
+.chater{
+    margin: auto;
+    max-width: 1000px;
+    width: auto;
+    height: auto;
+
+}
+.chater_subr{
+    align-self: right;
+    width: auto;
+    height: auto;
+}
+.chater_big{
+    margin: auto;
+    width: auto;
+    height: auto;
+
+}
+.chater_subl{
+    align-self: right;
+    width: auto;
+    height: auto;
+}
+.chater_liner{
+    margin: auto;
+    max-width: 950px;
+    align-self: center;
+    width: auto;
+    height: auto;
+}
+.source{
+    color: #666666;
+    text-align:left;
+    font-size: 14px;
+    margin-right: 180px;
+    margin-left: 138px;
+}
+.heat{
+    margin: auto;
+    width: 640px;
+    height: 640px;
+    align-self: center;
+
+}
+.banner{
+    margin-left: 120px;
+    width: 1000px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+
+}

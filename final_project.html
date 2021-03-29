@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Braden Riggs Final Project</title>
+        <link href="style_final.css" rel="stylesheet"/>
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/series-label.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+
+        <script src="final_proj.js"></script>
+    </head>
+
+    <body>
+        <h1><img src="logo.jpg" alt="Simpsons" height="100" width="225" /> <br> How One of America's Most <p class = name>Beloved</p>
+            Shows Has <p class = name>Changed</p> in the <p class = name>Last 30 Years</p> </h1>
+
+        <div class = flex-containerzzz>
+        <article class="yote"> "Dazzlingly intelligent and unapologetically vulgar, 
+            the Simpsons have surpassed the humor, topicality and, yes, humanity of past TV greats."
+            <p class = name> - Time Magazine, The Best Of The Century </p>
+        </article>
+
+        <article class="yote"> "Television’s crowning achievement regardless of format"
+            <p class = name>- AV Club, The best animated series ever, from Adventure Time to whatever The Zeta Project is </p>
+        </article>
+
+        <article class="yote"> "Aside from having a reasonable claim to being, at its peak, the greatest sitcom of all time, The Simpsons sparked a revolution in animated comedy."
+           <p class = name>- The Telegraph, The 10 best TV sitcoms of all time </p>
+        </article>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class = "flex-container">
+
+        <article class="yeet">
+            It’s no exaggeration to say that “The Simpsons” family is a twenty first century household name. 
+            Airing initially in late 1989 the show has exploded in popularity, now in its 31st season as of 2020. 
+            <p class = "name">This begs the question however, has the cultural zeitgeist already had its golden age or is the best yet to come?</p>
+             Using data provided by Data.world, which can be found <a style="color: #FFD90F" href="https://data.world/data-society/the-simpsons-by-the-data">here</a>, 
+             we will attempt to answer this question by exploring the changes in the Simpsons over its first 25 seasons. Before we begin I encourage the reader to do their own investigation using the chart below, 
+             click on the respective seasons to open a chart of episodes, and the respective episodes to open a breakdown of key characters and episode details. 
+             For the readers convenience a red line has been provided on the bar charts, this  <p style="color: #FF4E4E">red line </p> is the mean episode rating  across all 25 seasons.
+        </article>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id = 'container' class = "chater"></div>
+        <article class="source">Source: https://data.world/data-society/the-simpsons-by-the-data</article>
+        <div class = "flex-container">
+
+        <div id = 'container2' class = "chater_subr"></div>
+        <div id = 'container3' class = "chater_subl"></div>
+        </div>
+
+        <br>
+        <article class="yeet">
+            As you can probably tell from the graph widget above, viewer satisfaction with the episodes has been decreasing over the lifespan of the series. 
+            <p class = "name">Season 6 represents the peak season for the series, averaging a user rating of 8.98 per episode.</p> This contrasts heavily with the latest season in the dataset, season 25 which only averaged a 6.78, 
+            more that two points less than season 6. As you can also tell, this isn’t due to a shift in character composition for each episode. 
+            A quick investigation of some of the individual episodes shows that their character composition hasn’t deviated much from that of the series’ most successful episodes. 
+        </article>
+        <br>
+        <article class="yeet">
+            <p class = "name">The decrease in quality of the show is also correlated to a drop in viewership across the life of the show.</p>
+            On an individual episodic level there are regular viewership jumps for season premiers, 
+            however the show’s viewership dwindles following the premiers. 
+            This dwindling becomes more and more pronounced as the show’s lifespan continues. 
+            For a closer look at the episodic breakdown of viewership, see the additional unused graph widgets at the bottom of the page. 
+            Looking at the viewership on the graph widget below we can see a steady decline in millions of viewers. 
+            There is a sudden jump however in viewership from season 11 to season 12 (see the red band below). 
+            <p class = "name">This increase in viewership is due to a change in how show viewers were counted.</p> Up until season 12 viewership was measured in millions of households, 
+            from season 12 onwards it is measured in millions of viewers. 
+        </article>
+
+        <br>
+        <br>
+        <div id = "container5" class="chater_liner"></div>
+        <br>
+        <br>
+        <article class="yeet">
+            Because of this change in viewership classification the true decrease in people watching the show is likely far more substantial. 
+            This change in viewership could be due to a plethora of reasons beyond the show’s declining quality, 
+            however if we visualize this change in viewership on a heatmap we can clearly see that <p class="name">there is a substantial 
+            downward trend.</p>
+        </article>
+        <br>
+        <br>
+        <div id = "container6" class="heat"></div>
+        <br>
+        <br>
+        <article class="yeet">To conclude, based off the presented graphics it is clear that between the seasons 1 to 25 there 
+            has been a drop in the level of viewer satisfaction as apparent by a decrease in IMDB ratings and viewer counts for each episode. The iconic TV family saw its height in popularity before it reached its 10th season and has been decreasing in popularity ever since. 
+            <p class="name"> Perhaps it is time for the beloved sitcom to retire to the hall of fame?</p> </article>
+        <br>
+        <img src="banner_simpsons.webp" alt="Simpsons" class="banner"/>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1> Additional Unused Visualizations:</h1>
+        <br>
+        <br>
+        <div id = "container4" class="chater_big"></div>
+
+
+    </body>
+</html>
